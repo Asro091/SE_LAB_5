@@ -1,7 +1,5 @@
 # Lab 5: Static Code Analysis — Issues Report
 
-The line numbers below refer to the original `address_book.py` supplied for the lab. The four selected issues and fixes are listed below.
-
 | Issue                           | Type / Severity       |                   Original line(s) | Description                                                                                         | Fix Approach                                                                     |
 |---------------------------------|-----------------------|-----------------------------------:|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Unsafe pickle deserialization   | Security / High       |                              60–67 | `pickle.load()` can execute arbitrary code when loading an untrusted backup file.                   | Replaced pickle serialization with JSON and validated the restored contact data. |
