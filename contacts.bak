@@ -1,0 +1,17 @@
+{
+  "Neha Sharma": {
+    "phone": "9876543210",
+    "email": "neha@example.com",
+    "city": "Bengaluru"
+  },
+  "Rahul Verma": {
+    "phone": "9123456780",
+    "email": "rahul@example.com",
+    "city": "Chennai"
+  },
+  "Kavya Nair": {
+    "phone": "9988776655",
+    "email": "",
+    "city": "Bengaluru"
+  }
+}
